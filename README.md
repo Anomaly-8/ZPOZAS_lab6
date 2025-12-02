@@ -9,6 +9,12 @@
 
 Цель этапа -  собрать информацию о целевой машине.
 
+Скришнот с Windows
+
+<img width="612" height="413" alt="image" src="https://github.com/user-attachments/assets/08195871-702a-4f3e-a8f8-e79a38aebbcf" />
+
+Скриншот с Linux
+
 <img width="1153" height="833" alt="image" src="https://github.com/user-attachments/assets/25451655-a92b-42e9-a150-8f73a3b539a4" />
 
 ### Этап 2: Создание «оружия» (Weaponization)
