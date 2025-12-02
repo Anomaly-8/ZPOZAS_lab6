@@ -28,8 +28,16 @@
 
 Цель - доставить вредоносную нагрузку (payload.exe) на целевую машину.
 
-С помощью загрузки по HTTP
-<img width="1173" height="212" alt="image" src="https://github.com/user-attachments/assets/82c8821d-0de5-4cff-a33e-ab3ae13eaa11" />
+1. С помощью загрузки по HTTP
+
+Питон сервер
+
+<img width="1161" height="209" alt="image" src="https://github.com/user-attachments/assets/280fb985-6e3f-4330-bc12-958a1acca97c" />
+
+Загрузка на Windows через http://10.86.146.25:8080/payload.exe
+
+<img width="837" height="338" alt="image" src="https://github.com/user-attachments/assets/87a15d4e-efe5-42cb-b4b1-0b8f13aa7ed9" />
+
 
 2.	Произведите доставку на целевую машину не вручную, а одним из эксплойтов из состава Metasploit.
 
