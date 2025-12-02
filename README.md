@@ -40,8 +40,7 @@
 
 <img width="837" height="338" alt="image" src="https://github.com/user-attachments/assets/87a15d4e-efe5-42cb-b4b1-0b8f13aa7ed9" />
 
-### Этап 4: Эксплуатация (Exploitation)
-### Этап 5: Установка (Installation)
+### Этап 4 и 5: Эксплуатация (Exploitation) и Установка (Installation)
 
 Цель - заставить жертву запустить файл и получить контроль над системой.
 
